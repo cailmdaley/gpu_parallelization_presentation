@@ -9,9 +9,19 @@ align: true
 width:  1600
 height: 900
 slideNumber: true
+
+author: Cail Daley
+revealjs-url: reveal.js
 output:
     html:
+        to:           revealjs
+        standalone:   true
+        section-divs: true
+        mathjax:      true
         template : "revealjs_template.html"
+    beamer  :
+        to: beamer
+        standalone : true
 ---
 
 ## Moore's Law
