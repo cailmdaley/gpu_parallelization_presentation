@@ -1,29 +1,3 @@
----
-title : GPU Paralellization
-author: Cail Daley
-date  : THW, Nov 20 2019
-type : slides
-theme: cail
-margin: 0.05
-align: true
-width:  1600
-height: 900
-slideNumber: true
-
-author: Cail Daley
-revealjs-url: reveal.js
-output:
-    html:
-        to:           revealjs
-        standalone:   true
-        section-divs: true
-        mathjax:      true
-        template : "revealjs_template.html"
-    beamer  :
-        to: beamer
-        standalone : true
----
-
 ## Moore's Law
 
 ![By Max Roser - <a rel="nofollow" class="external free" href="https://ourworldindata.org/uploads/2019/05/Transistor-Count-over-time-to-2018.png">https://ourworldindata.org/uploads/2019/05/Transistor-Count-over-time-to-2018.png</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=79751151">Link</a>](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moore%27s_Law_Transistor_Count_1971-2018.png/1920px-Moore%27s_Law_Transistor_Count_1971-2018.png){width=60%}
@@ -46,7 +20,6 @@ output:
 
 ::::::
 :::
-
 
 
 
@@ -95,7 +68,7 @@ Throughput $×$ Latency = Queue Size
 ::: {.columns}
 :::::: {.column width=50%}
 
-## tasks can be sensitive to latency...
+### tasks can be sensitive to latency...
 
 - serial tasks
     - sequential or iterative calculations
@@ -104,7 +77,7 @@ Throughput $×$ Latency = Queue Size
 ::::::
 :::::: {.column width=50%}
 
-## or throughput
+### or throughput
 
 - pleasingly/embarrassingly parallel tasks
     - calculations are independent of one another

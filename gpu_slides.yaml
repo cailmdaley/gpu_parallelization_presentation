@@ -1,0 +1,25 @@
+to: revealjs
+input-file: gpu_slides.md
+output-file : index.html
+
+template: revealjs_template.html
+
+slide-level: 2
+
+metadata:
+    title: GPU Paralellization
+    date: THW, Nov 20 2019
+    author: Cail Daley
+
+standalone:   true
+# self-contained:   true
+
+variables:
+    theme: cail
+    revealjs-url: https://unpkg.com/reveal.js@3.9.2/
+    width:  1600
+    height: 900
+    margin: 0.05
+    slideNumber: true
+    pdfSeparateFragments : false
+    pdfMaxPagesPerSlide : 1
